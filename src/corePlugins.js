@@ -1478,7 +1478,7 @@ export let corePlugins = {
 
   textOverflow: ({ addUtilities }) => {
     addUtilities({
-      '.truncate': { overflow: 'hidden', 'text-overflow': 'ellipsis', 'white-space': 'nowrap' },
+      '.truncate': { overflowX: 'hidden', 'text-overflow': 'ellipsis', 'white-space': 'nowrap' },
       '.overflow-ellipsis': { 'text-overflow': 'ellipsis' }, // Deprecated
       '.text-ellipsis': { 'text-overflow': 'ellipsis' },
       '.text-clip': { 'text-overflow': 'clip' },
